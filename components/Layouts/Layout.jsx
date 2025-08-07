@@ -29,12 +29,8 @@ export default function Layout({ userData, title, children, router }) {
 
       <NavBar path={router.asPath} userData={userData} />
 
-      <div
-        id="main-content"
-        className="dark bg-google-dark w-full min-h-[80vh] text-gray-300"
-      >
+      <div id="main-content" className="w-full text-gray-300">
         {children}
-
         {/* <Tabbar /> */}
       </div>
 

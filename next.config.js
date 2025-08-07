@@ -10,7 +10,7 @@ module.exports = phase => {
   let PORT = process.env.PORT
 
   const images = {
-    domains: ['localhost', 'stockfinder.tech', 'images.stockfinder.tech']
+    domains: ['localhost', 'stockfinder.tech', 'images.stockfinder.tech', 'thumb.pccomponentes.com']
   }
 
   const env = {

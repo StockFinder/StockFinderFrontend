@@ -10,24 +10,24 @@ COPY package*.json ./
 # RUN npm install
 RUN npm ci
 
-COPY . .
+# COPY . .
 
-ENV NODE_ENV production
+ENV NODE_ENV development
 ENV NEXT_TELEMETRY_DISABLED 1
-ENV DOMAIN_NAME stockfinder.tech
+ENV DOMAIN_NAME localhost
 
-RUN npm run build
+# RUN npm run build
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+# RUN addgroup --system --gid 1001 nodejs
+# RUN adduser --system --uid 1001 nextjs
 
-RUN mkdir -p /usr/src/app/.next/cache 
-RUN chown -R nextjs:nodejs /usr/src/app/.next
+# RUN mkdir -p /usr/src/app/.next/cache 
+# RUN chown -R nextjs:nodejs /usr/src/app/.next
 
-USER nextjs
+# USER nextjs
 
 EXPOSE ${DOCKER_FRONTEND_PORT}
 ENV PORT=${DOCKER_FRONTEND_PORT}
 
 
-CMD ["node", "server.js"]
+CMD ["npm", "run", "dev"]
