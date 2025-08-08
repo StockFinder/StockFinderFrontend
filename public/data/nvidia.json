@@ -192,7 +192,7 @@
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1087/10876376/1992-msi-geforce-rtx-5070-ti-gaming-trio-oc-16gb-gddr7-reflex-2-rtx-ai-dlss4.jpg"
   },
   {
-    "name": "Tarjeta gráfica Palit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7 256bit PCIe 5.0",
+    "name": "Palit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7 256bit PCIe 5.0",
     "price": 849.9,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-palit-geforce-rtx-5070-ti-gamingpro-s-16gb-gddr7-256bit-pcie-50",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1092/10923236/1359-tarjeta-grafica-palit-geforce-rtx-5070-ti-gamingpro-s-16gb-gddr7-256bit-pcie-50.jpg"
@@ -222,7 +222,7 @@
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1088/10888771/1900-gigabyte-geforce-rtx-5060-windforce-8gb-gddr7-reflex-2-rtx-ai-dlss4.jpg"
   },
   {
-    "name": "Tarjeta Gráfica ASUS GeForce RTX 5070 Ti 16GB GDDR7 OC Triple Ventilador Iluminación RGB",
+    "name": "ASUS GeForce RTX 5070 Ti 16GB GDDR7 OC Triple Ventilador Iluminación RGB",
     "price": 1089.9,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-asus-geforce-rtx-5070-ti-16gb-gddr7-oc-triple-ventilador-iluminacion-rgb",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1089/10891696/1878-tarjeta-grafica-asus-geforce-rtx-5070-ti-16gb-gddr7-oc-triple-ventilador-iluminacion-rgb.jpg"
@@ -384,7 +384,7 @@
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1087/10872328/1793-inno3d-geforce-rtx-5070-twin-x2-oc-12gb-gddr7-reflex-2-rtx-ai-dlss4.jpg"
   },
   {
-    "name": "Tarjeta Gráfica GIGABYTE RTX 5060 8GB GDDR7 AERO OC triple ventilador blanca",
+    "name": "GIGABYTE RTX 5060 8GB GDDR7 AERO OC triple ventilador blanca",
     "price": 374.99,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-gigabyte-rtx-5060-8gb-gddr7-aero-oc-triple-ventilador-blanca",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1089/10892065/1466-tarjeta-grafica-gigabyte-rtx-5060-8gb-gddr7-aero-oc-triple-ventilador-blanca.jpg"
@@ -552,7 +552,7 @@
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1091/10916947/1720-palit-geforce-rtx-5060-dual-8gb-gddr7-reflex-2-rtx-ai-dlss4.jpg"
   },
   {
-    "name": "Tarjeta Gráfica Zotac GAMING GeForce RTX 5070 Ti 16GB GDDR7 SOLID CORE OC triple ventilador",
+    "name": "Zotac GAMING GeForce RTX 5070 Ti 16GB GDDR7 SOLID CORE OC triple ventilador",
     "price": 990.22,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-ti-16gb-gddr7-solid-core-oc-triple-ventilador",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1088/10888830/1715-tarjeta-grafica-zotac-gaming-geforce-rtx-5070-ti-16gb-gddr7-solid-core-oc-triple-ventilador-0af61aff-5924-4c62-b983-b81d6865a45b.jpg"
@@ -978,19 +978,19 @@
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1087/10872058/1338-palit-geforce-rtx-5090-gamerock-oc-32gb-gddr7-reflex-2-rtx-ai-dlss4.jpg"
   },
   {
-    "name": "Tarjeta Gráfica Gainward GeForce RTX 5080 Phoenix V1 16GB GDDR7 RGB DisplayPort HDMI Overclocking",
+    "name": "Gainward GeForce RTX 5080 Phoenix V1 16GB GDDR7 RGB DisplayPort HDMI Overclocking",
     "price": 1260.45,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-gainward-geforce-rtx-5080-phoenix-v1-16gb-gddr7-rgb-displayport-hdmi-overclocking",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1088/10888294/1996-tarjeta-grafica-gainward-geforce-rtx-5080-phoenix-v1-16gb-gddr7-rgb-displayport-hdmi-overclocking.jpg"
   },
   {
-    "name": "Tarjeta Gráfica MSI RTX 5060Ti 8GB GDDR6 Ventus 2X PLUS dual-fan alto rendimiento",
+    "name": "MSI RTX 5060Ti 8GB GDDR6 Ventus 2X PLUS dual-fan alto rendimiento",
     "price": 448.99,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-msi-rtx-5060ti-8gb-gddr6-ventus-2x-plus-dual-fan-alto-rendimiento",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1089/10892173/1744-tarjeta-grafica-msi-rtx-5060ti-8gb-gddr6-ventus-2x-plus-dual-fan-alto-rendimiento.jpg"
   },
   {
-    "name": "Tarjeta gráfica Palit GeForce RTX 5060 Ti Dual OC 8GB GDDR7 PCI Express 5.0",
+    "name": "Palit GeForce RTX 5060 Ti Dual OC 8GB GDDR7 PCI Express 5.0",
     "price": 430.51,
     "url": "https://www.pccomponentes.com/tarjeta-grafica-palit-geforce-rtx-5060-ti-dual-oc-8gb-gddr7-pci-express-50",
     "image": "https://thumb.pccomponentes.com/w-150-150/articles/1091/10918087/143-tarjeta-grafica-palit-geforce-rtx-5060-ti-dual-oc-8gb-gddr7-pci-express-50-opiniones.jpg"
