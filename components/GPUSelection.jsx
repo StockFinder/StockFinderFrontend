@@ -19,10 +19,7 @@ export default function GPUSelection() {
 
   return (
     <section className="h-screen flex flex-col items-center justify-center py-16 px-4">
-      {/* <h2 className="text-3xl md:text-4xl font-bold text-white mb-10">
-        Selecciona tu Tarjeta Gráfica
-      </h2> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:max-w-7xl sm:h-96">
         {cards.map((card) => (
           <Link
             key={card.name}
@@ -32,9 +29,9 @@ export default function GPUSelection() {
             <Image
               src={card.image}
               alt={card.name}
-              width={600}
-              height={400}
-              className="w-full h-64 group-hover:scale-105 transition-transform duration-300"
+              width={2000}
+              height={800}
+              className="h-64 sm:h-full w-full group-hover:scale-105 transition-transform duration-300"
               style={{
                   objectFit: 'cover',
                   objectPosition: card.position
