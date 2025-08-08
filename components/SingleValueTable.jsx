@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function SingleValueTable({ data, brand }) {
   // Estado para lista y filtro
-  const allItems = Object.values(data);
+  const allItems = Object.values(data?.products_data ?? {});
   const [items, setItems] = useState(allItems);
   const [sortOrder, setSortOrder] = useState(null); // null | "asc" | "desc"
   const [brandKey, setBrandKey] = useState("Marca");
