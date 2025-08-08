@@ -77,17 +77,17 @@ export default function SingleValueTable({ data, brand }) {
 
   return (
     <div className="text-center overflow-x-auto w-fit mx-auto my-5">
-      <div className="flex flex-row px-3 py-1">
+      <div className="flex flex-row sm:px-3 py-1">
         <Image src={(brand == 'nvidia') ? '/images/nvidia.png' : '/images/amd.png'} alt={brand} width={140} height={30} className="hidden sm:block bg-white px-2 py-1 text-center rounded-lg opacity-90"/>
         
         {/* Select filtro */}
         <select
           value={brandKey}
           onChange={handleBrandChange}
-          className="m-3 px-3 py-1 rounded border border-gray-600 bg-transparent hover:bg-gray-800 hover:bg-opacity-40 text-gray-200 text-xs my-auto"
+          className="m-3 px-3 py-1 rounded border border-gray-600 bg-transparent hover:bg-gray-800 hover:bg-opacity-40 text-gray-200 text-sm my-auto"
         >
           {brandOptions.map((opt) => (
-            <option key={opt} value={opt}>
+            <option key={opt} value={opt} className="bg-gray-800">
               {opt === "Marca" ? "Marca" : opt}
             </option>
           ))}
@@ -97,10 +97,10 @@ export default function SingleValueTable({ data, brand }) {
         <select
           value={modelKey}
           onChange={handleModelChange}
-          className="mr-3 px-3 py-1 rounded border border-gray-600 bg-transparent hover:bg-gray-800 hover:bg-opacity-40 text-gray-200 text-xs my-auto appearance-none"
+          className="mr-3 px-3 py-1 rounded border border-gray-600 bg-transparent hover:bg-gray-800 hover:bg-opacity-40 text-gray-200 text-sm my-auto"
         >
           {modelOptions.map((opt) => (
-            <option key={opt} value={opt}>
+            <option key={opt} value={opt} className="bg-gray-800">
               {opt === "Modelo" ? "Modelo" : opt}
             </option>
           ))}
@@ -108,7 +108,7 @@ export default function SingleValueTable({ data, brand }) {
         
         {/* Botón ordenar */}
         <button
-          className="px-3 py-1 rounded border border-gray-600 bg-transparent hover:bg-gray-800 hover:bg-opacity-40 text-gray-200 text-xs my-auto"
+          className="px-3 py-1 rounded border border-gray-600 bg-transparent hover:bg-gray-800 hover:bg-opacity-40 text-gray-200 text-sm my-auto"
           onClick={sortByPrice}
         >
           {sortOrder === "asc" ? "Precio descendente" : "Precio ascendente"}
@@ -122,11 +122,11 @@ export default function SingleValueTable({ data, brand }) {
           {items.map((item, index) => (
             <tr key={index}>
               <td className="px-3 py-1 rounded-xl">
-                <div className="flex flex-row gap-2 bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-80 rounded-xl">
+                <div className="flex flex-row gap-2 rounded-xl">
                   <Image src={item.image} alt="amd" width={60} height={60} className="rounded-lg"/>
-                  <div className="flex flex-col my-auto">
-                    <a target="_blank" key={index} href={item.url} className="text-xs text-gray-100 font-semibold block text-center hover:text-blue-500 hover:underline">{item.name}</a>
-                    <p className="text-xs text-left font-semibold">{item.price.toFixed(2)} €</p>
+                  <div className="flex flex-col bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-80 sm:py-4">
+                    <a target="_blank" key={index} href={item.url} className="text-left text-gray-100 font-semibold block hover:text-blue-500 hover:underline">{item.name}</a>
+                    <p className="text-left font-semibold">{item.price.toFixed(2)} €</p>
                   </div>
                 </div>
               </td>
