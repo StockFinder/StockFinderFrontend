@@ -13,11 +13,9 @@ function Navbar({ path, userData }) {
               height={40}
               width={40}
               src={logoIMG}
-              alt="Logo StockFinder"
+              alt="StockFinder"
+              className="my-auto text-lg font-medium hover:text-blue-500 subpixel-antialiased text-white"
             />
-            {/* <p className="hidden md:block my-auto ml-2 text-lg font-medium hover:text-blue-500 subpixel-antialiased text-white">
-              StockFinder
-            </p> */}
           </span>
         </Link>
       </div>

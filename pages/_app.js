@@ -33,7 +33,7 @@ function Website({ Component, pageProps: { ...pageProps }, router }) {
         seTitle
       }}
     >
-      <Layout userData={userData} title={title} router={router}>
+      <Layout title={title} router={router}>
         <AnimatePresence
           exitBeforeEnter
           initial={true}

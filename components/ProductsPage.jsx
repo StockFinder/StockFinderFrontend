@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image"
 import Link from "next/link"
 
-export default function SingleValueTable({ data, brand }) {
+export default function ProductsPage({ data, brand }) {
   // Estado para lista y filtro
   const allItems = Object.values(data?.products_data ?? {});
   const [items, setItems] = useState(allItems);
@@ -76,7 +76,7 @@ export default function SingleValueTable({ data, brand }) {
   };
 
   return (
-    <div className="text-center overflow-x-auto w-fit mx-auto my-5">
+    <div className="h-screen text-center w-fit mx-auto sm:my-5">
       <div className="flex flex-row sm:px-3 py-1">
         <Image src={(brand == 'nvidia') ? '/images/nvidia.png' : '/images/amd.png'} alt={brand} width={140} height={30} className="hidden sm:block bg-white px-2 py-1 text-center rounded-lg opacity-90"/>
         
@@ -117,23 +117,26 @@ export default function SingleValueTable({ data, brand }) {
 
 
       {/* Tabla */}
-      <table>
-        <tbody>
-          {items.map((item, index) => (
-            <tr key={index}>
-              <td className="px-3 py-1 rounded-xl">
-                <div className="flex flex-row gap-2 rounded-xl">
-                  <Image src={item.image} alt="amd" width={60} height={60} className="rounded-lg"/>
-                  <div className="flex flex-col bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-80 sm:py-4">
-                    <a target="_blank" key={index} href={item.url} className="text-left text-gray-100 font-semibold block hover:text-blue-500 hover:underline">{item.name}</a>
-                    <p className="text-left font-semibold">{item.price.toFixed(2)} €</p>
+      <div className="max-h-[70vh] sm:max-h-[80vh] overflow-y-auto">
+        <table>
+          <tbody>
+            {items.map((item, index) => (
+              <tr key={index}>
+                <td className="px-3 py-1 rounded-xl">
+                  <div className="flex flex-row gap-2 rounded-xl">
+                    <img src={`http://192.168.1.100:4444${item.image}`} alt="amd" width={100} height={100} className="rounded-lg"/>
+                    <div className="flex flex-col bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-80 sm:py-1 text-white">
+                      <a target="_blank" key={index} href={item.url} className="text-left font-semibold block hover:text-blue-500 hover:underline my-auto">{item.name}</a>
+                      <p className="text-left font-semibold my-auto text-orange-500">{item.price.toFixed(2)} €</p>
+                      <p className="text-left font-semibold my-auto">{item.shop}</p>
+                    </div>
                   </div>
-                </div>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

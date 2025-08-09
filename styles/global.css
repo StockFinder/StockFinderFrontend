@@ -5,9 +5,9 @@
 
 
 #__next {
-  @media (max-width: 640px) {
+  /* @media (max-width: 640px) {
     background-image: url('/images/background/xbox_controller_phone.webp');
-  }
+  } */
   @media (min-width: 640px) {
     background-image: url('/images/background/xbox_controller_800.webp');
   }

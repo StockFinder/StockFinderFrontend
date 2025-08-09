@@ -1,13 +1,12 @@
 import CookieConsent from './CookieConsent'
-// import Tabbar from "../Tabbar";
-import Footer from './Footer/index'
-import Head from 'next/head'
+import Footer from './Footer'
 import NavBar from './Navbar'
 import React from 'react'
+import Head from 'next/head'
 
-export default function Layout({ userData, title, children, router }) {
+export default function Layout({ title, children, router }) {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,23 +18,15 @@ export default function Layout({ userData, title, children, router }) {
         <meta name="description" content="Tracker for PC parts and consoles" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
-        {/* <meta name="theme-color" content="#FFFFFF" /> */}
         <meta name="og:title" content="StockFinder" />
-        <meta name="twitter:card" content="summary_large_image" />
-
         <link rel="shortcut icon" href="/images/logos/StockFinderLogo.svg" />
         <title>{title}</title>
       </Head>
-
-      <NavBar path={router.asPath} userData={userData} />
-
-      <div id="main-content" className="w-full text-gray-300">
-        {children}
-        {/* <Tabbar /> */}
-      </div>
-
+      
+      <NavBar path={router.asPath} />
+      {children}
       <CookieConsent />
       <Footer />
-    </React.Fragment>
+    </>
   )
 }

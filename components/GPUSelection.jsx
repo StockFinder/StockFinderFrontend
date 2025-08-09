@@ -18,8 +18,8 @@ export default function GPUSelection() {
   ]
 
   return (
-    <section className="h-screen flex flex-col items-center justify-center py-16 px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:max-w-7xl sm:h-96">
+    <section className="h-screen flex flex-col items-center sm:justify-center py-16 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:max-w-7xl sm:h-[20vh]">
         {cards.map((card) => (
           <Link
             key={card.name}

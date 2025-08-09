@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from 'react'
 import { ServiceContext } from '../_app'
-import SingleValueTable from '../../components/SingleValueTable'
+import ProductsPage from '../../components/ProductsPage'
 
 
 
@@ -13,7 +13,7 @@ export default function AMD({ ...pageProps }) {
 
   return (
     <>
-      <SingleValueTable data={pageProps.data} brand='amd'/>
+      <ProductsPage data={pageProps.data} brand='amd'/>
     </>
   )
 }
