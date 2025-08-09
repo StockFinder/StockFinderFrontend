@@ -8,7 +8,7 @@ export default function AMD({ ...pageProps }) {
   const { seTitle } = useContext(ServiceContext)
 
   useEffect(() => {
-    seTitle('StockFinder.tech')
+    seTitle('GPUFinder.ovh')
   }, [])
 
   return (

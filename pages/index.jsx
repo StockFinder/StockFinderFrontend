@@ -7,7 +7,7 @@ export default function Home() {
   const { seTitle } = useContext(ServiceContext)
 
   useEffect(() => {
-    seTitle('StockFinder.tech')
+    seTitle('GPUFinder.ovh')
   }, [])
 
   return (

@@ -24,7 +24,7 @@ export default function index() {
               proporcionar una contraseña de la que será responsable,
               comprometiéndose a hacer un uso diligente y confidencial de la
               misma. El USUARIO se compromete a hacer un uso adecuado de los
-              contenidos y servicios que StockFinder ofrece a través de su
+              contenidos y servicios que GPUFinder ofrece a través de su
               plataforma y con carácter enunciativo, pero no limitativo, a no
               emplearlos para:
             </p>
@@ -39,7 +39,7 @@ export default function index() {
                 contra los derechos humanos.
               </li>
               <li>
-                Provocar daños en los sistemas físicos y lógicos de StockFinder,
+                Provocar daños en los sistemas físicos y lógicos de GPUFinder,
                 de sus proveedores o de terceras personas, introducir o difundir
                 en la red virus informáticos o cualesquiera otros sistemas
                 físicos o lógicos que sean susceptibles de provocar los daños
@@ -53,10 +53,10 @@ export default function index() {
             </ol>
           </section>
           <section className="mt-4">
-            <h2 className="text-xl">Coste del servicio de StockFinder</h2>
+            <h2 className="text-xl">Coste del servicio de GPUFinder</h2>
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
             <p>
-              El servicio de StockFinder es totalmente gratuito para nuestros
+              El servicio de GPUFinder es totalmente gratuito para nuestros
               clientes y/o usuarios, ya que obtenemos nuestros beneficios de las
               comisiones de algunas de las compañías cuyos productos y/o
               servicios se compran a través de nuestros enlaces o de la
@@ -71,13 +71,13 @@ export default function index() {
                 Todos los signos distintivos, marcas, nombres comerciales,
                 contenidos, estructura, diseño y forma de presentación de los
                 elementos y cualquier otra información que aparezca en este
-                sitio Web son propiedad de StockFinder.
+                sitio Web son propiedad de GPUFinder.
               </li>
               <li>
                 El usuario tiene prohibida la reproducción, transformación,
                 distribución, comunicación pública y, en general cualquier otra
                 forma de explotación de los elementos referidos en el apartado
-                anterior sin autorización expresa de StockFinder.
+                anterior sin autorización expresa de GPUFinder.
               </li>
               <li>
                 El usuario se abstendrá de emplear medios que puedan suprimir,
@@ -87,12 +87,12 @@ export default function index() {
                 sus contenidos.
               </li>
               <li>
-                StockFinder no se responsabiliza del posible uso inapropiado que
+                GPUFinder no se responsabiliza del posible uso inapropiado que
                 terceros realicen de esta página Web, ni de la información que a
                 través de ella transmitan a terceros. El uso de los contenidos
                 que pueda hacer el usuario y las eventuales consecuencias, daños
                 o perjuicios que pudiesen derivarse, son de la exclusiva
-                responsabilidad del usuario. StockFinder se excluye por los
+                responsabilidad del usuario. GPUFinder se excluye por los
                 daños y perjuicios de toda naturaleza causados a los usuarios
                 por el uso de enlaces (links), directorios y herramientas de
                 búsqueda, que permiten a los usuarios acceder a sitios Web
@@ -100,7 +100,7 @@ export default function index() {
                 presencia de virus u otros códigos maliciosos en los contenidos
                 que puedan producir cualquier tipo de daños en el sistema
                 informático, documentos electrónicos o ficheros de los usuarios.
-                StockFinder se reserva el derecho de ejercitar las acciones
+                GPUFinder se reserva el derecho de ejercitar las acciones
                 legales que considere oportunas derivadas de cualesquiera usos
                 ilícitos por parte de terceros de los contenidos de su página
                 web.
@@ -113,7 +113,7 @@ export default function index() {
             </h2>
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
             <p>
-              StockFinder no se hace responsable, en ningún caso, de los daños y
+              GPUFinder no se hace responsable, en ningún caso, de los daños y
               perjuicios de cualquier naturaleza que pudieran ocasionar, a
               título enunciativo: errores u omisiones en los contenidos, falta
               de disponibilidad del plataforma o la transmisión de virus o
@@ -125,7 +125,7 @@ export default function index() {
             <h2 className="text-xl">Modificaciones</h2>
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
             <p>
-              StockFinder se reserva el derecho de efectuar sin previo aviso las
+              GPUFinder se reserva el derecho de efectuar sin previo aviso las
               modificaciones que considere oportunas en su plataforma, pudiendo
               cambiar, suprimir o añadir tanto los contenidos y servicios que se
               presten a través de la misma como la forma en la que éstos
@@ -137,9 +137,9 @@ export default function index() {
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
             <p>
               En el caso de que en nombre del dominio se dispusiesen enlaces o
-              hipervínculos hacía otros sitios de Internet, StockFinder no
+              hipervínculos hacía otros sitios de Internet, GPUFinder no
               ejercerá ningún tipo de control sobre dichos sitios y contenidos.
-              En ningún caso StockFinder asumirá responsabilidad alguna por los
+              En ningún caso GPUFinder asumirá responsabilidad alguna por los
               contenidos de algún enlace perteneciente a un sitio web ajeno, ni
               garantizará la disponibilidad técnica, calidad, fiabilidad,
               exactitud, amplitud, veracidad, validez y constitucionalidad de
@@ -150,7 +150,7 @@ export default function index() {
               En este sentido, si tuvieras conocimiento de la ilicitud de
               actividades desarrolladas a través de páginas web de terceros con
               link en nuestra Web, deberás comunicarlo inmediatamente a
-              StockFinder a través de un email a StockFinder@protonmail.com a
+              GPUFinder a través de un email a GPUFinder@protonmail.com a
               los efectos de que se proceda a deshabilitar el link de acceso a
               la misma.
             </p>
@@ -160,7 +160,7 @@ export default function index() {
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
 
             <p>
-              StockFinder se reserva el derecho a denegar o retirar el acceso a
+              GPUFinder se reserva el derecho a denegar o retirar el acceso a
               plataforma y/o los servicios ofrecidos sin necesidad de preaviso,
               a instancia propia o de un tercero, a aquellos usuarios que
               incumplan las Condiciones Generales de Uso.
@@ -171,7 +171,7 @@ export default function index() {
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
 
             <p>
-              StockFinder perseguirá el incumplimiento de las condiciones, así
+              GPUFinder perseguirá el incumplimiento de las condiciones, así
               como cualquier utilización indebida de su plataforma ejerciendo
               todas las acciones civiles y penales que le puedan corresponder en
               derecho.
@@ -184,7 +184,7 @@ export default function index() {
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
 
             <p>
-              StockFinder podrá modificar en cualquier momento las condiciones
+              GPUFinder podrá modificar en cualquier momento las condiciones
               aquí determinadas, siendo debidamente publicadas como aquí
               aparecen.
             </p>
@@ -193,7 +193,7 @@ export default function index() {
             <h2 className="text-xl">Legislación aplicable y jurisdicción</h2>
             <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
             <p>
-              La relación entre StockFinder y el USUARIO se regirá por la
+              La relación entre GPUFinder y el USUARIO se regirá por la
               normativa española vigente y cualquier controversia se someterá a
               los Juzgados y Tribunales españoles.
             </p>

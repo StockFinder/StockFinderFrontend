@@ -1,33 +1,33 @@
-# Production image, copy all the files and run next
+# Stage 1: Build stage
+FROM node:16-alpine AS builder
+RUN apk add --no-cache libc6-compat
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+RUN npm ci
+
+COPY . .
+RUN npm run build
+
+# Stage 2: Production stage
 FROM node:16-alpine
 RUN apk add --no-cache libc6-compat
 
-RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+ENV DOMAIN_NAME=gpufinder.ovh
 
 COPY package*.json ./
-# RUN npm install
-RUN npm ci
+RUN npm ci --only=production
 
-# COPY . .
+COPY --from=builder /usr/src/app/.next ./.next
+COPY --from=builder /usr/src/app/public ./public
+COPY --from=builder /usr/src/app/next.config.js ./next.config.js
 
-ENV NODE_ENV development
-ENV NEXT_TELEMETRY_DISABLED 1
-ENV DOMAIN_NAME localhost
+EXPOSE 3000
+ENV PORT=3000
 
-# RUN npm run build
-
-# RUN addgroup --system --gid 1001 nodejs
-# RUN adduser --system --uid 1001 nextjs
-
-# RUN mkdir -p /usr/src/app/.next/cache 
-# RUN chown -R nextjs:nodejs /usr/src/app/.next
-
-# USER nextjs
-
-EXPOSE ${DOCKER_FRONTEND_PORT}
-ENV PORT=${DOCKER_FRONTEND_PORT}
-
-
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]

@@ -13,7 +13,7 @@ function Navbar({ path, userData }) {
               height={40}
               width={40}
               src={logoIMG}
-              alt="StockFinder"
+              alt="GPUFinder"
               className="my-auto text-lg font-medium hover:text-blue-500 subpixel-antialiased text-white"
             />
           </span>

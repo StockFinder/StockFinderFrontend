@@ -124,9 +124,9 @@ export default function ProductsPage({ data, brand }) {
               <tr key={index}>
                 <td className="px-3 py-1 rounded-xl">
                   <div className="flex flex-row gap-2 rounded-xl">
-                    <img src={`http://192.168.1.100:4444${item.image}`} alt="amd" width={100} height={100} className="rounded-lg"/>
+                    <Image src={`https://images.gpufinder.ovh/${item.image}`} alt="amd" width={100} height={100} className="rounded-lg"/>
                     <div className="flex flex-col bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-80 sm:py-1 text-white">
-                      <a target="_blank" key={index} href={item.url} className="text-left font-semibold block hover:text-blue-500 hover:underline my-auto">{item.name}</a>
+                      <a target="_blank" rel="noreferrer" key={index} href={item.url} className="text-left font-semibold block hover:text-blue-500 hover:underline my-auto">{item.name}</a>
                       <p className="text-left font-semibold my-auto text-orange-500">{item.price.toFixed(2)} €</p>
                       <p className="text-left font-semibold my-auto">{item.shop}</p>
                     </div>

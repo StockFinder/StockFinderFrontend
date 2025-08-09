@@ -10,7 +10,7 @@ export default function CategorySection({ name }) {
 
   const { seTitle } = useContext(ServiceContext)
   useEffect(() => {
-    seTitle(`Ayuda | StockFinder.tech`)
+    seTitle(`Ayuda | GPUFinder.ovh`)
   }, [])
 
   switch (name) {

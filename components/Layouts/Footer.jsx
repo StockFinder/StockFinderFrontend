@@ -1,8 +1,6 @@
 import Link from 'next/link'
 
-// import Banner from './Banner'
-
-export default function index() {
+export default function Footer() {
   const linkClass = 'hover:underline text-left text-blue-500 text-xs sm:text-sm hover:cursor-pointer'
   return (
     <>

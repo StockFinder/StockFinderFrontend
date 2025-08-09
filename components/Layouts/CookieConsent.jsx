@@ -3,7 +3,7 @@ import CookieConsent from 'react-cookie-consent'
 function index() {
   return (
     <CookieConsent
-      cookieName="StockFinder_CookieConsent"
+      cookieName="GPUFinder_CookieConsent"
       buttonText="Comprendo"
       expires={30}
       location="bottom"

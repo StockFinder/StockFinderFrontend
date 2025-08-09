@@ -16,8 +16,8 @@ export default function PoliticaPrivacidad() {
         <section className="mt-4">
           <p>
             La presente Política de Privacidad establece los términos en que
-            StockFinder usa y protege la información que es proporcionada por
-            sus usuarios al momento de utilizar su sitio web. StockFinder está
+            GPUFinder usa y protege la información que es proporcionada por
+            sus usuarios al momento de utilizar su sitio web. GPUFinder está
             comprometida con la seguridad de los datos de sus usuarios. Cuando
             le pedimos llenar los campos de información personal con la cual
             usted pueda ser identificado, lo hacemos asegurando que sólo se
@@ -52,7 +52,7 @@ export default function PoliticaPrivacidad() {
             consideremos relevante para usted o que pueda brindarle algún
             beneficio, estos correos electrónicos serán enviados a la dirección
             que usted proporcione y podrán ser cancelados en cualquier momento.
-            StockFinder está altamente comprometido para cumplir con el
+            GPUFinder está altamente comprometido para cumplir con el
             compromiso de mantener su información segura. Usamos los sistemas
             más avanzados y los actualizamos constantemente para asegurarnos que
             no exista ningún acceso no autorizado.
@@ -111,10 +111,10 @@ export default function PoliticaPrivacidad() {
             de usuario, puede marcar o desmarcar la opción de recibir
             información por correo electrónico. En caso de que haya marcado la
             opción de recibir nuestro boletín o publicidad usted puede
-            cancelarla en cualquier momento. StockFinder no venderá, cederá ni
+            cancelarla en cualquier momento. GPUFinder no venderá, cederá ni
             distribuirá la información personal que es recopilada sin su
             consentimiento, salvo que sea requerido por un juez con un orden
-            judicial. StockFinder se reserva el derecho de cambiar los términos
+            judicial. GPUFinder se reserva el derecho de cambiar los términos
             de la presente Política de Privacidad en cualquier momento.
           </p>
         </section>
