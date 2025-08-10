@@ -5,12 +5,12 @@ import { motion } from 'framer-motion'
 export default function PoliticaPrivacidad() {
   return (
     <motion.div
-      className="default-w-space text-xs"
+      className="h-screen px-2 py-2 max-w-4xl mx-auto text-sm sm:text-base text-justify"
       variants={slideUp}
       initial="initial"
       animate={'open'}
     >
-      <div className="mx-auto text-justify">
+      <div className="max-h-[80vh] overflow-y-auto px-2">
         <h1 className="text-3xl">Política de Privacidad</h1>
         <div className="section-title-separator bg-blue-800 w-8 rounded-full mt-1 mb-4 h-2"></div>
         <section className="mt-4">
