@@ -16,11 +16,7 @@ function index() {
         <span className="text-lg font-semibold -mt-2">Privacidad</span>
         <div className="grid">
           <span className="text-sm">
-            Esta web hace uso de cookies para mejorar la experiencia de usuario.
-          </span>
-          <span className="text-xxs italic">
-            Las cookies no se utilizan para anuncios, tampoco se almacenan en el
-            servidor.
+            Esta web no hace ningún uso de cookies.
           </span>
         </div>
       </div>
