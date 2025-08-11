@@ -13,7 +13,7 @@ function Website({ Component, pageProps: { ...pageProps }, router }) {
 
   const [userDataLoaded, setUserDataLoaded] = useState(false)
   const [userData, setUserData] = useState(undefined)
-  const [title, seTitle] = useState('StockFinder.tech')
+  const [title, seTitle] = useState('GPUFinder.ovh')
 
   useEffect(() => {}, [userData, title])
 

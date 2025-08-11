@@ -10,7 +10,7 @@ export default class CookieService {
 
   static removeCookie(cookieName: string = "", cookieValue: string = "") {
     // cookieCutter.set(cookieName, cookieValue, { expires: new Date(0) });
-    let domainName: string = process.env.DOMAIN_NAME ? process.env.DOMAIN_NAME : 'stockfinder.tech'
+    let domainName: string = process.env.DOMAIN_NAME ? process.env.DOMAIN_NAME : 'gpufinder.ovh'
     CookiesClient.remove(cookieName, { path: "/", domain: domainName });
   }
 
