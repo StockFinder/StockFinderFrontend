@@ -126,9 +126,12 @@ export default function ProductsPage({ data, brand }) {
                   <div className="flex flex-row gap-2 rounded-xl">
                     <Image src={`https://images.gpufinder.ovh/${item.image}`} alt={brand} width={90} height={90} layout="fixed" className="rounded-lg object-cover flex-shrink-0"/>
                     <div className="flex flex-col bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-80 sm:py-1 text-white text-sm sm:text-base">
-                      <a target="_blank" rel="noreferrer" key={index} href={item.url} className="text-left font-semibold block hover:text-blue-500 hover:underline my-auto">{item.name}</a>
-                      <p className="text-left font-semibold my-auto text-orange-500">{item.price.toFixed(2)} €</p>
+                      <a target="_blank" rel="noreferrer" key={index} href={item.url} className="text-left font-semibold hover:text-blue-500 hover:underline">
+                        <span className="text-left">{item.name} | </span>
+                        <span className="text-orange-500 font-semibold">{item.price.toFixed(2)} €</span>
+                      </a>
                       <p className="text-left font-semibold my-auto">{item.shop}</p>
+                      <p className="text-left font-semibold my-auto">{item.last_update}</p>
                     </div>
                   </div>
                 </td>
